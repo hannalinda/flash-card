@@ -17,6 +17,6 @@ criaCartao(
 )
     criaCartao(
     'Lingua Portuguesa',
-    'Um demagogo age de forma:',
+    'Um demagogo age de forma?',
     'feliz,alegre'
 )
