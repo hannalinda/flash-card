@@ -1,6 +1,6 @@
 @import url("style/header.css");
 :root{
- --laranja-claro: #166704;
+ --laranja-claro: #1bdc9fdd;
     --preto: #000000;
     --branco: #FFFFFF; 
 }
@@ -11,7 +11,7 @@
 }
 
 .cabecalho {
-    background-color: #4d805d;
+    background-color: #0af855;
     color:var(--branco);
     display: flex;
     justify-content: space-around;
@@ -36,7 +36,7 @@
 }
 
 .agro{
-    background-image: linear-gradient(#64c095,#2c744a);
+    background-image: linear-gradient(#039616,#299456);
     color:var(--branco);
     display: flex;
     justify-content: center;
@@ -53,7 +53,7 @@
     padding: 24px 0;
 }
 .contato{
-  background-image: linear-gradient(#64c095,#2c744a);
+  background-image: linear-gradient(#0e9304,#094d26);
     color:var(--branco);
     display: flex;
     justify-content: center;

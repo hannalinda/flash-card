@@ -1,19 +1,17 @@
-🌾 Do Campo ao Copo: A Jornada do Malte em Guarapuava
+🌾 Do Campo ao Copo; Alternativas Sustentáveis aos Defensivos Convencionais
+
+
 Projeto desenvolvido para o Concurso Agrinho 2026 – Categoria Programação, na Subcategoria 3: Programação Front-End – HTML, CSS e JavaScript.
 
 🌱 Tema do Concurso
-Agro forte, futuro sustentável: equilíbrio entre produção e meio ambiente
+Agro forte, futuro sustentável: Alternativas Sustentáveis aos Defensivos Convencionais
 
 📌 Sobre o Projeto
-O projeto “Do Campo ao Copo: A Jornada do Malte em Guarapuava” apresenta, de forma visual, interativa e educativa, a trajetória da cevada, desde o cultivo no campo até sua transformação em malte e sua chegada à cidade.
-
+O projeto “Alternativas Sustentáveis aos Defensivos Convencionais” normalmente se refere a iniciativas de pesquisa, extensão rural ou educação ambiental voltadas para reduzir o uso de agrotóxicos tradicionais na agricultura, substituindo-os por métodos mais sustentáveis, biológicos e de menor impacto ambiental.
 A proposta mostra como o agronegócio, a tecnologia, a indústria, a sustentabilidade e a vida urbana estão conectados em uma mesma cadeia produtiva.
 
-Por meio de textos, imagens, quiz, curiosidades, vídeo e história em quadrinhos, o site busca aproximar o visitante da realidade do campo e destacar a importância de produzir com responsabilidade ambiental.
-
 🎯 Objetivo
-O objetivo do projeto é conscientizar os visitantes sobre a importância da produção sustentável, mostrando que o desenvolvimento econômico pode caminhar junto com o cuidado com o meio ambiente.
-
+Desenvolver e promover alternativas sustentáveis aos defensivos convencionais, visando reduzir os impactos ambientais e os riscos à saúde humana, por meio da adoção de práticas agrícolas ecológicas, controle biológico e uso de bioinsumos.
 O site busca explicar, de maneira simples e interativa, como a cadeia produtiva da cevada e do malte envolve diferentes etapas, pessoas, tecnologias e impactos positivos para a sociedade.
 
 🧭 Funcionalidades do Site
@@ -132,6 +130,10 @@ O objetivo do quiz é revisar, de forma leve e interativa, os principais conceit
 Cevada;
 Malte;
 Cadeia produtiva;
+
+🖼️ Créditos dos Recursos Utilizados
+As imagens, vídeos, ícones, textos e demais recursos visuais utilizados neste projeto foram produzidos ou organizados para fins educacionais no contexto do Concurso Agrinho 2026.
+
 Sustentabilidade;
 Conexão entre campo, indústria e cidade.
 Ao final, o usuário recebe uma pontuação e uma mensagem de feedback de acordo com seu desempenho.
@@ -149,16 +151,7 @@ O projeto também conta com uma história em quadrinhos incorporada ao site.
 
 A HQ tem como objetivo apresentar o tema de maneira mais visual, criativa e acessível, facilitando a compreensão da cadeia produtiva e da importância da sustentabilidade.
 
-🎬 Vídeo Educativo
-A seção de vídeo apresenta, de forma audiovisual, a jornada da cevada desde o campo até sua transformação e chegada à cidade.
 
-O vídeo complementa o conteúdo textual e visual do site, tornando a experiência mais dinâmica para o visitante.
-
-👨‍🎓 Autoria
-Autor(a): Nome do(a) estudante
-Professor(a) orientador(a): Nome do(a) professor(a)
-Escola: Nome da instituição de ensino
-Município: Guarapuava – Paraná
 
 🖼️ Créditos dos Recursos Utilizados
 As imagens, vídeos, ícones, textos e demais recursos visuais utilizados neste projeto foram produzidos ou organizados para fins educacionais no contexto do Concurso Agrinho 2026.
