@@ -1,8 +1,11 @@
-@media screen and  (min-width: 800px) {
+@media screen and (min-width: 800px) {
     
     h1 {
-        font-size: 500%;
-        color: #198c0c;
-        background-color: rgb(26, 255, 0);
+        font-size: 3.5rem; /* Ajustado para um tamanho grande, mas equilibrado (aprox. 56px) */
+        color: #198c0c; /* Verde escuro */
+        background-color: #e8f5e9; /* Um verde bem claro de fundo para dar contraste e leitura */
+        padding: 1rem; /* Espaçamento interno para o fundo não colar nas letras */
+        border-radius: 8px; /* Bordas levemente arredondadas */
     }
+
 }
