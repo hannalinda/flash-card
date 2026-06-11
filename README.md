@@ -74,6 +74,15 @@ Agro forte, futuro sustentável: Alternativas Sustentáveis aos Defensivos Conve
 ⌨️ Fechamento de menus com a tecla Escape.
 Esses recursos tornam o site mais inclusivo e facilitam o acesso ao conteúdo por diferentes perfis de usuários.
 
+👨‍🎓 Autoria
+
+Autor(a): Hanna Pauluk
+
+Professor(a) orientador(a): Alexandra 
+Escola: CCM Edite Cordeiro Marques 
+
+Município: Turvo – Paraná
+
 🌿 Sustentabilidade
 O conteúdo do site aborda práticas relacionadas ao equilíbrio entre produção e meio ambiente, como:
 
