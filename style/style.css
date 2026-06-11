@@ -1,117 +1,190 @@
-@import url("style/header.css");
-:root{
- --laranja-claro: #1bdc9fdd;
-    --preto: #000000;
-    --branco: #FFFFFF; 
-}
-
+/* ==========================================================================
+   1. CONFIGURAÇÕES GERAIS E RESETS
+   ========================================================================== */
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f7f5;
+    color: #333333;
+    line-height: 1.6;
+}
+
+/* ==========================================================================
+   2. CABEÇALHO (HEADER)
+   ========================================================================== */
 .cabecalho {
-    background-color: #13f562;
-    color:var(--branco);
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 20px 0;
-}
-
-.cabecalho-imagem{
-    width: 15%;
-    margin: 0 10px;
-}
-
-.cabecalho-lista-item{
-    display: inline-block;
-    margin: 0 10px;
-    font-size: 24px;
-}
-
-.agro-imagem{
-    width: 25%;
-    margin: 10px;
-}
-
-.agro{
-    background-image: linear-gradient(#039616,#299456);
-    color:var(--branco);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 24px 0;
-}
-
-.agro-div-conteudo{
-    width: 35%;
-    padding: 14px 0;
-    margin: 10px;
-}
-.agro-titulo{
-    padding: 24px 0;
-}
-.contato{
-  background-image: linear-gradient(#0e9304,#094d26);
-    color:var(--branco);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 14px 0;
-}
-
-.rodape{
-    background-color:var(--preto);
-    text-align: center;
-}
-
-.rodape-imagem{
-    height: 60px;
-    padding: 12px 0;
-   
-}
-
-
-.menu-acessibilidade{
-    position: fixed;
-    top:2rem;
-    right:20px;
+    padding: 1.5rem 10%;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    position: sticky;
+    top: 0;
     z-index: 1000;
 }
 
-.rotacao-botao{
-    transform: rotate(-90deg);
-    transform-origin: right center;
+.cabecalho-imagem {
+    max-height: 60px;
+    width: auto;
+    object-fit: contain;
 }
 
-.opcoes-acessibilidade{
-    margin-top:10px;
+.cabecalho nav ul {
+    list-style: none;
+}
+
+.cabecalho-lista-item {
+    font-weight: 600;
+    color: #2e7d32; /* Verde sustentável */
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+/* Acessibilidade */
+.menu-acessibilidade {
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    position: relative;
 }
 
-.opcoes-acessibilidade button{
-    margin-bottom: 5px;
+.opcoes-acessibilidade {
+    display: flex;
+    gap: 5px;
 }
 
-.apresenta-lista{
-    display: none;
+/* Botões base (Bootstrap classes aproximadas) */
+.btn {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    transition: background-color 0.3s ease;
 }
 
-.alto-contraste {
-    background-color: var(--preto);
-    color: var(--branco);
+.btn-primary {
+    background-color: #1b5e20;
+    color: #ffffff;
 }
 
-.alto-contraste .cabecalho,
-.alto-contraste .rodape,
-.alto-contraste .agro {
-    background-color: var(--preto);
-    color: var(--branco);
+.btn-primary:hover {
+    background-color: #2e7d32;
 }
-.alto-contraste .botao-inicio,
-.alto-contraste .btn-primary {
-    background-color: var(--laranja-claro);
-    color: var(--preto);
+
+.fw-bold {
+    font-weight: 700;
+}
+
+/* ==========================================================================
+   3. CONTEÚDO PRINCIPAL (MAIN & SECTIONS)
+   ========================================================================== */
+main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.agro {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    margin-bottom: 4rem;
+    background-color: #ffffff;
+    padding: 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.03);
+}
+
+/* Inverte a ordem da imagem e do texto em seções alternadas para um design dinâmico */
+.agro:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.agro-div-conteudo {
+    flex: 1;
+}
+
+.agro-titulo {
+    font-size: 2rem;
+    color: #1b5e20;
+    margin-bottom: 1.2rem;
+    position: relative;
+    padding-bottom: 0.5rem;
+}
+
+/* Linha decorativa abaixo do título */
+.agro-titulo::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 60px;
+    height: 4px;
+    background-color: #81c784;
+    border-radius: 2px;
+}
+
+.agro-texto-um {
+    font-size: 1rem;
+    color: #555555;
+    text-align: justify;
+}
+
+.agro-imagem {
+    flex: 1;
+    width: 100%;
+    max-width: 450px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* ==========================================================================
+   4. RODAPÉ (FOOTER)
+   ========================================================================== */
+.rodape {
+    background-color: #1b5e20;
+    padding: 2rem;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.rodape-imagem {
+    max-height: 50px;
+    width: auto;
+    filter: brightness(0) invert(1); /* Torna a logo branca se for escura */
+}
+
+/* ==========================================================================
+   5. RESPONSIVIDADE (MOBILE)
+   ========================================================================== */
+@media (max-width: 768px) {
+    .cabecalho {
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+    }
+
+    .agro, .agro:nth-child(even) {
+        flex-direction: column;
+        gap: 2rem;
+        padding: 1.5rem;
+    }
+
+    .agro-imagem {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .agro-titulo {
+        font-size: 1.6rem;
+    }
 }
