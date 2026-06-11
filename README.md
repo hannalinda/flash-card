@@ -22,8 +22,6 @@ O projeto conta com as seguintes funcionalidades:
 🖼️ Galeria/carrossel de imagens;
 💡 Curiosidades interativas;
 🔠 Opção de aumentar e diminuir fonte;
-🌓 Modo de alto contraste;
-📲 Layout adaptado para diferentes tamanhos de tela.
 💻 Tecnologias Utilizadas
 O projeto foi desenvolvido utilizando apenas tecnologias básicas de front-end:
 
@@ -173,7 +171,7 @@ educacao
 Projeto desenvolvido exclusivamente para fins educacionais e para participação no Concurso Agrinho 2026.
 
 🌟 Considerações Finais
-Agro forte, futuro sustentável: Alternativas Sustentáveis aos Defensivos Convencionais
+Do Campo ao Copo; Alternativas Sustentáveis aos Defensivos Convencionais
 O projeto :” busca demonstrar que a tecnologia pode ser usada como ferramenta de aprendizagem, conscientização e valorização do agronegócio sustentável.
 
 A iniciativa une programação, educação, sustentabilidade e realidade regional, mostrando que o campo e a cidade fazem parte de uma mesma cadeia de desenvolvimento.
